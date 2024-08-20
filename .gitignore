@@ -1,0 +1,21 @@
+# Ignore Terraform binary files
+.terraform/
+
+# Ignore Terraform provider binaries
+*.exe
+*.zip
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Ignore local environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
