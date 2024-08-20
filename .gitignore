@@ -12,6 +12,7 @@
 
 # Ignore local environment files
 .env
+.idea   
 
 # Ignore logs
 *.log
